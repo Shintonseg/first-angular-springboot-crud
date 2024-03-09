@@ -47,6 +47,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         employeeOptional.ifPresent(existingEmployee -> {
             existingEmployee.setName(employee.getName());
             existingEmployee.setEmail(employee.getEmail());
+            existingEmployee.setPhoneNumber(employee.getPhoneNumber());
             employeeRepository.save(existingEmployee);
         });
         return employee;

@@ -18,5 +18,7 @@ public class Employee {
     private String name;
     @Column(name = "email", nullable = false, unique = true)
     private String email;
+    @Column(name = "phoneNumber",length = 10)
+    private long phoneNumber;
 
 }
