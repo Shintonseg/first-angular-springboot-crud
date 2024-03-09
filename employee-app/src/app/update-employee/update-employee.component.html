@@ -10,8 +10,14 @@
 
         <div class="form-group">
             <label>Email</label>
-            <input type="email" class="form-control" id="name"
+            <input type="email" class="form-control" id="email"
             [(ngModel)]="employee.email" name="email">
+        </div>
+
+        <div class="form-group">
+            <label>Phone Number</label>
+            <input type="text" class="form-control" id="number"
+            [(ngModel)]="employee.phoneNumber" name="number">
         </div>
 
         <button class="btn btn-success" type="submit">Submit</button>

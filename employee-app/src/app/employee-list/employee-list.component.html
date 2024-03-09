@@ -5,6 +5,7 @@
             <th>ID</th>
             <th>NAME</th>
             <th>EMAIL</th>
+            <th>PHONE</th>
         </tr>
     </thead>
     <tbody>
@@ -12,7 +13,7 @@
             <td>{{i+1}}</td>
             <td>{{emp.name}}</td>
             <td>{{emp.email}}</td>
-            <td></td>
+            <td>{{emp.phoneNumber}}</td>
 
             <td>
                 <button (click)= "updateEmployee(emp.id)" class="update-btn">Update</button>

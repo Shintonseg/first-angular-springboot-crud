@@ -1,3 +1,8 @@
+p{
+  text-align: left;
+  font-size: 25px;
+  font-weight: 500;
+}
 /* CSS for the "Update" and "Delete" buttons */
 .update-btn,
 .delete-btn {
