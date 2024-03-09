@@ -1,0 +1,52 @@
+.add-employee {
+    margin: 20px auto;
+    width: 50%;
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.add-employee h3 {
+    margin-bottom: 20px;
+}
+
+.add-employee .form-group {
+    margin-bottom: 20px;
+}
+
+.add-employee label {
+    font-weight: bold;
+}
+
+.add-employee input[type="text"],
+.add-employee input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+.add-employee button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-employee button[type="submit"]:hover {
+    background-color: #0d160d;
+}
+
+.add-employee .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
